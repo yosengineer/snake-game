@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Advanced Snake Game</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Advanced Snake Game</h1>
+        <div class="center-wrapper">
+            <div class="game-layout">
+                <div class="game-area">
+                    <canvas id="game" width="400" height="400"></canvas>
+                    <div id="game-over">Game Over!</div>
+                    <button id="restart-btn">Restart</button>
+                </div>
+                <div id="instructions">
+                    <h2><span class="icon">🕹️</span>How to Play</h2>
+                    <ul style="padding-left: 1.2em; margin: 0;">
+                        <li>Use <span class="key">W</span> <span class="key">A</span> <span class="key">S</span> <span class="key">D</span> or <span class="key">&#8593;</span> <span class="key">&#8592;</span> <span class="key">&#8595;</span> <span class="key">&#8594;</span> to move the snake.</li>
+                        <li>Eat <span style="color:#ff4136; font-weight:bold;">red food</span> to grow and score points.</li>
+                        <li>Avoid <span style="color:#888; font-weight:bold;">gray obstacles</span> and your own tail.</li>
+                        <li>Go through walls: the snake wraps around the board.</li>
+                        <li>Press <span class="key">P</span> to pause/resume. <span class="key">Restart</span> to play again.</li>
+                    </ul>
+                    <div id="scoreboard" style="margin-top: 22px;">Score: <span id="score">0</span> | High Score: <span id="highscore">0</span></div>
+                </div>
+            </div>
+        </div>
+        <!-- Link to the main game logic -->
+        <script src="snake.js"></script>
+    </body>
+</html>
