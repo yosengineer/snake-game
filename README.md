@@ -1,8 +1,22 @@
+
 # Snake Game
 
 A modern, visually appealing Snake game built with HTML5, CSS3, and JavaScript.
 
+## Screenshot
+
+![Game Screenshot](assets/screenshot.png)
+
+## How to Play
+
+- Use <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> or <kbd>↑</kbd> <kbd>←</kbd> <kbd>↓</kbd> <kbd>→</kbd> to move the snake.
+- Eat <span style="color:#ff4136; font-weight:bold;">red food</span> to grow and score points.
+- Avoid <span style="color:#888; font-weight:bold;">gray obstacles</span> and your own tail.
+- Go through walls: the snake wraps around the board.
+- Press <kbd>P</kbd> to pause/resume. Click <b>Restart</b> to play again.
+
 ## Features
+
 - Responsive design
 - Obstacles, score, and high score
 - Keyboard controls (WASD and arrow keys)
@@ -14,6 +28,7 @@ A modern, visually appealing Snake game built with HTML5, CSS3, and JavaScript.
 ```
 snake-game/
 ├── assets/              # Images, icons, sounds (if any)
+│   └── screenshot.png   # Game screenshot (add your image here)
 ├── css/
 │   └── style.css        # All CSS files
 ├── js/
